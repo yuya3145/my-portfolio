@@ -368,5 +368,17 @@ ul {
   .footer-nav {
     gap: 20px;
   }
+/* スマホではSKILLSを1列にする */
+.skills-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
 
+/* スマホではWORKSを1列にする */
+.works-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
 }
